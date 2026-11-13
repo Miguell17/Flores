@@ -74,12 +74,7 @@ body{
     color: #a201ff;
 }
 
-.button{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 /* Estilo para el botón */
 .button button {
     background-color: rgb(111, 0, 255); /* Fondo*/
@@ -90,6 +85,10 @@ body{
     position: relative; /* Necesario para el resplandor */
     border-radius: 20px; /* Esquinas redondeadas */
     transition: background-color 0.3s ease-in-out; /* Transición suave para el color de fondo */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /* Estilo para el enlace dentro del botón */
