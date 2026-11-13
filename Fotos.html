@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestros recuerdos ❤️</title>
+
+    <link rel="stylesheet" href="css/recuerdos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Nuestros recuerdos ❤️</h1>
+        <p>Cada fotografía guarda un momento contigo 💜</p>
+    </header>
+
+    <!-- GALERÍA -->
+    <main class="galeria" id="galeria">
+
+        <div class="foto">
+            <img src="img/recuerdos/foto1.jpg" alt="Nuestro recuerdo 1">
+        </div>
+
+        <div class="foto">
+            <img src="img/recuerdos/foto2.jpg" alt="Nuestro recuerdo 2">
+        </div>
+
+        <div class="foto">
+            <img src="img/recuerdos/foto3.jpg" alt="Nuestro recuerdo 3">
+        </div>
+
+        <div class="foto">
+            <img src="img/recuerdos/foto4.jpg" alt="Nuestro recuerdo 4">
+        </div>
+
+        <div class="foto">
+            <img src="img/recuerdos/foto5.jpg" alt="Nuestro recuerdo 5">
+        </div>
+
+        <!-- Agrega más fotografías aquí -->
+
+    </main>
+
+    <a href="FLORES.html" class="volver">
+        ❤️ Volver a nuestra sorpresa
+    </a>
+
+    <!-- VISOR DE FOTOGRAFÍAS -->
+    <div class="visor" id="visor">
+
+        <button class="minimizar" id="minimizar" title="Minimizar">
+            −
+        </button>
+
+        <button class="cerrar" id="cerrar" title="Cerrar">
+            ×
+        </button>
+
+        <div class="visor-contenido">
+
+            <button class="navegar anterior" id="anterior">
+                ❮
+            </button>
+
+            <img id="imagenGrande" src="" alt="Fotografía ampliada">
+
+            <button class="navegar siguiente" id="siguiente">
+                ❯
+            </button>
+
+        </div>
+
+        <div class="contador" id="contador"></div>
+
+    </div>
+
+    <script src="Js/recuerdos.js"></script>
+
+</body>
+</html>

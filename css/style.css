@@ -74,9 +74,15 @@ body{
     color: #a201ff;
 }
 
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Estilo para el botón */
 .button button {
-    background-color: rgb(111, 0, 255); /* Fondo amarillo */
+    background-color: rgb(111, 0, 255); /* Fondo*/
     border: none; /* Sin bordes */
     padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
     font-size: 18px; /* Tamaño de fuente */
